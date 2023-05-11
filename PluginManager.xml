@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plugins [
+        <!ELEMENT
+                plugins (plugin)*>
+        <!ELEMENT
+                plugin (#PCDATA)>
+        <!ATTLIST
+                plugin id CDATA #REQUIRED url CDATA #REQUIRED version CDATA #REQUIRED>]>
+<plugins>
+    <plugin id="cn.yisu.gptdevops"
+            url="https://gitlab.qunhequnhe.com/openGroup/devOps/gpt-plugins/raw/release/plugins/GPT-DevOps-2.0.2.zip"
+            version="2.0.2"/>
+</plugins>
